@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-
+import os
 import psycopg
 
 #database connection
@@ -8,7 +8,7 @@ conn = psycopg.connect(
     host="localhost",
     dbname="employee_db",
     user="postgres",
-    password="rsc123",
+    password=os.getenv("DB_PASSWORD"),
     port=5432
 )
 
@@ -279,7 +279,6 @@ conn = psycopg.connect(
     host="localhost",
     dbname="employee_db",
     user="postgres",
-    password="rsc123",
     port=5432
 )
 
