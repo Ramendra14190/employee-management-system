@@ -540,3 +540,4 @@ conn.close()
 print("DATABASE CONNECTION CLOSED")
 
 >>>>>>> 9e45a3feac087fc0a00924733465065efba67363
+# Employee Management System - Search and validation updated
